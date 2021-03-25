@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
 	ios::sync_with_stdio(false);
-	cin.tie(0);cout.tie(0);
- string ans="", num1, num2;
+	cin.tie(0); cout.tie(0);
+ string ans = "", num1, num2;
  cin >> num1 >> num2;
         int l = max(num1.length(), num2.length()),
     n1, n2, n3, q=0, k = num1.length()-1, k2 = num2.length()-1;
